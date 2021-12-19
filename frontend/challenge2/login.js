@@ -15,7 +15,7 @@ $(document).ready(function () {
       }).done(function (data) {
         console.log(data);
         window.location =
-          '/verteilteAnwendungen/frontend/intern.php/?username=' +
+          '/verteilteAnwendungen/frontend/challenge2/intern.php/?username=' +
           data[0].username +
           '&GroupId=' +
           data[0].GroupId;
