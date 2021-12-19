@@ -1,38 +1,30 @@
 <html>
-  <head>
-    <title>Challenge 2</title>
-    <script
-      src="/verteilteAnwendungen/frontend/js/jquery-3.1.1.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="/verteilteAnwendungen/frontend/js/login.js"
-      type="text/javascript"
-    ></script>
-    <link
-      href="//netdna.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style2.css" />
-  </head>
-  <body>
-		<div class="container-fluid">
-      <div class="row bg-dark">
-        <div class="col-lg-12">
-          <p
-            class="text-center text-light dssplay-4 pt-2"
-            style="font-size: 25px"
-          >
-            Verteilte Anwendung - Challenge 2
-          </p>
-        </div>
-      </div>
-      <p>
-    <div>
-    <a href="/verteilteAnwendungen/frontend/index.html" class="backLink"
-      >zur&uuml;ck</a
-    >
-    <form>
+    <head>
+        <title>Challenge 3</title>
+        <link
+        href="//netdna.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        rel="stylesheet"
+      />
+        <script src="/verteilteAnwendungen/frontend/scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="login.js" type="text/javascript"></script> 
+		<link rel="stylesheet" href="challenge3.css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row bg-dark">
+              <div class="col-lg-12">
+                <p
+                  class="text-center text-light dssplay-4 pt-2"
+                  style="font-size: 25px"
+                >
+                  Verteilte Anwendung - Challenge 3
+                </p>
+              </div>
+            </div>
+            <p>
+          <div>
+    <a href="/verteilteAnwendungen/frontend/index.html" class="backLink">Zur&uuml;ck</a>
+		<form>
       <div id="login">
         <h3 class="text-center text-white pt-5">Login form</h3>
         <div class="container">
@@ -89,5 +81,17 @@
         </div>
       </div>
     </form>
-  </body>
+        <table id="userTable" border="1" >
+                <thead>
+                    <tr>
+                        <th width="5%">S.no</th>
+                        <th width="20%">Nachname</th>
+                        <th width="30%">Vorname</th>
+                        <th width="20%">Username</th>
+                        <th width="20%">Passwort</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+    </body>
 </html>
