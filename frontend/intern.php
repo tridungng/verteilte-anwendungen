@@ -1,8 +1,8 @@
 <html>
     <head>
         <title>Interner Bereich</title>
-        <script src="/verteilteAnwendungen/frontend/js/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <script src="/verteilteAnwendungen/frontend/js/intern.js" type="text/javascript"></script> 
+        <script src="/verteilteAnwendungen/frontend/scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="/verteilteAnwendungen/frontend/scripts/intern.js" type="text/javascript"></script> 
     </head>
     <body>
         <div class="container"> 
