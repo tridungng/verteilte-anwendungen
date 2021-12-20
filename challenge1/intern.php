@@ -23,7 +23,7 @@
               alert('Well done! You just successfully finished our Challenge 1!');
             }, 1000);
 					</script>
-					<a href="/index.html" class="backLink">Back</a>
+					<a href="/index.html" class="btn btn-outline-primary" style="margin-top: 20px">Back</a>
 					<h1 class="text-center" style="padding: 20px 0px 20px 0px">Customer database</h1>
           <table class="table table-bordered table-striped" id="userTable">
             <thead>

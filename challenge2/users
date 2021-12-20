@@ -17,11 +17,18 @@
           }, 1000);
         }
       </script>
-      <a href="/index.html" class="backLink">Back</a>
+      <a
+        href="/index.html"
+        class="btn btn-outline-primary"
+        style="margin-top: 20px"
+        >Back</a
+      >
       <h1 class="text-center" style="padding: 20px 0px 20px 0px">
         Customer database
       </h1>
-      <button id="showData" onclick="alertFunction()">Daten abholen</button>
+      <button class="btn btn-primary" id="showData" onclick="alertFunction()">
+        Daten abholen
+      </button>
       <table class="table table-bordered table-striped" id="userTable">
         <thead>
           <tr class="text-center bg-info text-light">

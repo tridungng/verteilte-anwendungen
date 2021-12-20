@@ -5,7 +5,7 @@
     $username = $_GET['Username'];
     $password = $_GET['Password'];
     $statement = $pdo->prepare("SELECT * FROM users WHERE Username = '".$username."' AND Passwort = '".$password."'" );
-    //print_r($statement);
+    // print_r($statement);
     $statement->execute();
     $data = $statement->fetchAll(PDO::FETCH_ASSOC);
     if ($data !== false){

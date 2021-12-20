@@ -17,8 +17,14 @@
   <body>
     <script>
       setTimeout(function(){
-      console.log('Hint: ');
-      }, 48000);
+        console.log('You can still login with the credentials similar to the first challenge.');
+      }, 60000);
+      setTimeout(function(){
+        console.log('The misconfiguration in this challenge is not directly recognizable.');
+      }, 120000);
+      setTimeout(function(){
+        console.log('Try to invoke the path /users.');
+      }, 480000);
     </script>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="text-center text-light dssplay-4 pt-2 main-text" href="/index.html" style="font-size: 25px">
@@ -80,8 +86,8 @@
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="/about.html"
-                  >About</a
+                  href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration"
+                  >External Link</a
                 >
               </li>
             </li>
