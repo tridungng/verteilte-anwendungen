@@ -23,7 +23,7 @@
         <table class="table table-bordered table-striped" id="userTable">
         <thead>
           <tr class="text-center bg-info text-light">
-            <th width="5%">S.no</th>
+            <th width="5%">Index</th>
             <th width="20%">Name</th>
             <th width="30%">Email</th>
             <th width="20%">Credit Card</th>
