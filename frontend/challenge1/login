@@ -1,11 +1,9 @@
 <html>
   <head>
-    <title>Challenge 1</title>
+    <title>Challenge 2</title>
     <link
+      href="//netdna.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
     />
     <script
       src="/verteilteAnwendungen/frontend/scripts/jquery-3.1.1.min.js"
@@ -73,7 +71,7 @@
     <a href="/verteilteAnwendungen/frontend/index.html" class="backLink"
       >back</a
     >
-    <form id="login-form">
+    <form>
       <div id="login">
         <div class="container">
           <div
