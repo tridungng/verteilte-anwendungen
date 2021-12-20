@@ -1,3 +1,47 @@
 h1 {
   text-align: center;
 }
+
+#login-column {
+  padding-top: 20px;
+  margin-top: 50px;
+  max-width: 500px;
+  height: 320px;
+  border: 1px solid #9c9c9c;
+  background-color: #eaeaea;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  padding-left: 30px;
+  padding-top: 12px;
+  background-color: #343a40 !important;
+  opacity: 0.9;
+  color: #f8f9fa !important;
+  font-size: 15px;
+}
+
+.nav-items {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.main-text {
+  padding-left: 30px !important;
+  padding-bottom: 10px !important;
+}
+
+.breadcrumb {
+  padding-left: 47px !important;
+}
