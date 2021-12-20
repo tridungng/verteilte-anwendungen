@@ -8,7 +8,7 @@ $(document).ready(function () {
       $.ajax({
         type: 'GET',
         url:
-          '/verteilteAnwendungen/backend/sql-injection.php/?Username=' +
+          '/backend/sql-injection.php/?Username=' +
           username +
           '&Password=' +
           password,

@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="text-center text-light dssplay-4 pt-2 main-text" href="/verteilteAnwendungen/frontend/index.html" style="font-size: 25px">
+      <a class="text-center text-light dssplay-4 pt-2 main-text" href="index.html" style="font-size: 25px">
         Security Misconfigurations
       </a>
       <button
@@ -28,11 +28,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <div class="nav-items">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a
                 class="nav-link"
-                href="/verteilteAnwendungen/frontend/index.html"
-                >Home</a
+                href="index.html"
+                >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item dropdown">
@@ -52,24 +52,24 @@
               >
                 <a
                   class="dropdown-item"
-                  href="/verteilteAnwendungen/frontend/challenge1/login"
+                  href="challenge1/login"
                   >Challenge 1</a
                 >
                 <a
                   class="dropdown-item"
-                  href="/verteilteAnwendungen/frontend/challenge2/login"
+                  href="challenge2/login"
                   >Challenge 2</a
                 >
                 <a
                   class="dropdown-item"
-                  href="/verteilteAnwendungen/frontend/challenge3/login"
+                  href="challenge3/login"
                   >Challenge 3</a
                 >
               </div>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
-                  href="/verteilteAnwendungen/frontend/about.html"
+                  class="nav-link"
+                  href="about.html"
                   >About</a
                 >
               </li>
@@ -80,9 +80,14 @@
     </nav>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">About</li>
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
       </ol>
     </nav>
+    <div>
+      <a href="challenge1/login">Challenge 1</a>
+      <a href="challenge2/login">Challenge 2</a>
+      <a href="challenge3/login">Challenge 3</a>
+    </div>
     <div class="footer">
       <p>
         This learning platform to demonstrate Security Misconfigurations was created by Dominik Nalewaja, Luca

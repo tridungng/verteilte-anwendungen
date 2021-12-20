@@ -1,14 +1,8 @@
 <html>
   <head>
     <title>Challenge 2</title>
-    <script
-      src="/verteilteAnwendungen/frontend/scripts/jquery-3.1.1.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="/verteilteAnwendungen/frontend/scripts/script.js"
-      type="text/javascript"
-    ></script>
+    <script src="/scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="/scripts/script.js" type="text/javascript"></script>
     <link
       href="//netdna.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,13 +13,11 @@
       <script type="text/javascript">
         function alertFunction() {
           setTimeout(function () {
-            alert('Well done! You just successfully finished our challenge 2!');
+            alert('Well done! You just successfully finished our Challenge 2!');
           }, 1000);
         }
       </script>
-      <a href="/verteilteAnwendungen/frontend/index.html" class="backLink"
-        >Back</a
-      >
+      <a href="/index.html" class="backLink">Back</a>
       <h1 class="text-center" style="padding: 20px 0px 20px 0px">
         Customer database
       </h1>

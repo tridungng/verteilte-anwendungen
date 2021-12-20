@@ -1,27 +1,25 @@
 <html>
   <head>
-    <title>Challenge 2</title>
+    <title>Challenge 1</title>
     <link
+      href="//netdna.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
     />
     <script
-      src="/verteilteAnwendungen/frontend/scripts/jquery-3.1.1.min.js"
+      src="/scripts/jquery-3.1.1.min.js"
       type="text/javascript"
     ></script>
     <script src="login.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="/verteilteAnwendungen/frontend/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <script>
       setTimeout(function(){
       console.log('Hint: ');
-      }, 48000);
+      }, 30000);
     </script>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="text-center text-light dssplay-4 pt-2 main-text" href="/verteilteAnwendungen/frontend/index.html" style="font-size: 25px">
+      <a class="text-center text-light dssplay-4 pt-2 main-text" href="/index.html" style="font-size: 25px">
         Security Misconfigurations
       </a>
       <button
@@ -42,7 +40,7 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/verteilteAnwendungen/frontend/index.html"
+                href="/index.html"
                 >Home</a
               >
             </li>
@@ -63,24 +61,24 @@
               >
                 <a
                   class="dropdown-item"
-                  href="/verteilteAnwendungen/frontend/challenge1/login"
+                  href="/challenge1/login"
                   >Challenge 1</a
                 >
                 <a
                   class="dropdown-item"
-                  href="/verteilteAnwendungen/frontend/challenge2/login"
+                  href="/challenge2/login"
                   >Challenge 2</a
                 >
                 <a
                   class="dropdown-item"
-                  href="/verteilteAnwendungen/frontend/challenge3/login"
+                  href="/challenge3/login"
                   >Challenge 3</a
                 >
               </div>
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="/verteilteAnwendungen/frontend/about.html"
+                  href="/about.html"
                   >About</a
                 >
               </li>
@@ -92,12 +90,12 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="/verteilteAnwendungen/frontend/index.html">Home</a>
+          <a href="/index.html">Home</a>
         </li>
-        <li class="breadcrumb-item active" aria-current="page">Challenge 2</li>
+        <li class="breadcrumb-item active" aria-current="page">Challenge 1</li>
       </ol>
     </nav>
-    <form id="login-form">
+    <form>
       <div id="login">
         <div class="container">
           <div
@@ -146,7 +144,7 @@
       </div>
     </form>
     <script
-      src="/verteilteAnwendungen/frontend/scripts/jquery-3.1.1.min.js"
+      src="/scripts/jquery-3.1.1.min.js"
       type="text/javascript"
     ></script>
     <script

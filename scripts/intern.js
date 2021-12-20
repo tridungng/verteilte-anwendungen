@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $.ajax({
-    url: '/verteilteAnwendungen/backend/userdata.php',
+    url: '/backend/userdata.php',
     type: 'get',
     dataType: 'JSON',
     success: function (response) {

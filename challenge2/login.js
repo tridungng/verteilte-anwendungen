@@ -8,14 +8,14 @@ $(document).ready(function () {
       };
       $.ajax({
         type: 'POST',
-        url: '/verteilteAnwendungen/backend/login.php',
+        url: '/backend/login.php',
         dataType: 'json',
         encode: true,
         data: formData,
       }).done(function (data) {
         console.log(data);
         window.location =
-          '/verteilteAnwendungen/frontend/intern.php/?username=' +
+          '/challenge2/intern.php/?username=' +
           data[0].username +
           '&GroupId=' +
           data[0].GroupId;

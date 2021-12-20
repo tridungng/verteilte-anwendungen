@@ -1,8 +1,8 @@
 <html>
     <head>
         <title>Interner Bereich</title>
-        <script src="/verteilteAnwendungen/frontend/scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <script src="/verteilteAnwendungen/frontend/scripts/intern.js" type="text/javascript"></script>
+        <script src="/scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="/scripts/intern.js" type="text/javascript"></script>
         <link
     href="//netdna.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
     rel="stylesheet"
@@ -20,10 +20,10 @@
         ?>
 					<script type="text/javascript">
 						setTimeout(function () {
-              alert('Well done! You just successfully finished our challenge 1!');
+              alert('Well done! You just successfully finished our Challenge 1!');
             }, 1000);
 					</script>
-					<a href="/verteilteAnwendungen/frontend/index.html" class="backLink">Back</a>
+					<a href="/index.html" class="backLink">Back</a>
 					<h1 class="text-center" style="padding: 20px 0px 20px 0px">Customer database</h1>
           <table class="table table-bordered table-striped" id="userTable">
             <thead>
