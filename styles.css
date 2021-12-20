@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  padding-top: 2rem;
 }
 
 #login-column {
@@ -44,4 +45,12 @@ h1 {
 
 .breadcrumb {
   padding-left: 47px !important;
+}
+
+.text-container {
+  padding-left: 35rem;
+  padding-right: 35rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: justify;
 }

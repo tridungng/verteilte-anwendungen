@@ -80,8 +80,8 @@
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="/about.html"
-                  >About</a
+                  href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration"
+                  >External Link</a
                 >
               </li>
             </li>
